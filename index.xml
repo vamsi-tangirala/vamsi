@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Vamsi | Mechanical Engineering, Computational Fluid Dynamics &amp; Thermal Systems on Vamsi Engineering Portfolio</title>
-    <link>https://vamsi510045.github.io/</link>
+    <link>https://vamsi-tangirala.github.io/vamsi/</link>
     <description>Recent content in Vamsi | Mechanical Engineering, Computational Fluid Dynamics &amp; Thermal Systems on Vamsi Engineering Portfolio</description>
     <generator>Hugo -- 0.157.0</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 07 Mar 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://vamsi510045.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://vamsi-tangirala.github.io/vamsi/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CFD Analysis of Heat Exchanger</title>
-      <link>https://vamsi510045.github.io/projects/heat-exchanger/</link>
+      <link>https://vamsi-tangirala.github.io/vamsi/projects/heat-exchanger/</link>
       <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://vamsi510045.github.io/projects/heat-exchanger/</guid>
+      <guid>https://vamsi-tangirala.github.io/vamsi/projects/heat-exchanger/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;p&gt;CFD simulation of a heat exchanger under external vibration conditions.&lt;/p&gt;
 &lt;h2 id=&#34;objectives&#34;&gt;Objectives&lt;/h2&gt;
@@ -28,9 +28,9 @@
     </item>
     <item>
       <title>About</title>
-      <link>https://vamsi510045.github.io/about/</link>
+      <link>https://vamsi-tangirala.github.io/vamsi/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://vamsi510045.github.io/about/</guid>
+      <guid>https://vamsi-tangirala.github.io/vamsi/about/</guid>
       <description>&lt;p&gt;I am a mechanical engineering student focused on thermal engineering, CFD simulations, and energy systems.&lt;/p&gt;
 &lt;p&gt;My work includes:&lt;/p&gt;
 &lt;ul&gt;
