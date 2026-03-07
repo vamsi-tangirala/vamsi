@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Home on Vamsi Engineering Portfolio</title>
+    <link>https://vamsi510045.github.io/</link>
+    <description>Recent content in Home on Vamsi Engineering Portfolio</description>
+    <generator>Hugo -- 0.157.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 07 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://vamsi510045.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CFD Analysis of Heat Exchanger</title>
+      <link>https://vamsi510045.github.io/projects/heat-exchanger/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://vamsi510045.github.io/projects/heat-exchanger/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;CFD simulation of a heat exchanger under external vibration conditions.&lt;/p&gt;
+&lt;h2 id=&#34;objectives&#34;&gt;Objectives&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;analyze heat transfer enhancement&lt;/li&gt;
+&lt;li&gt;compare vibrating vs non-vibrating systems&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;tools-used&#34;&gt;Tools Used&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;OpenFOAM&lt;/li&gt;
+&lt;li&gt;CFD analysis&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>
