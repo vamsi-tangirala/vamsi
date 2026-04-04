@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Performance Analysis of a Hexagonal Twisted Capillary Tube in Refrigerators | Vamsi Engineering Portfolio</title>
+<meta name="keywords" content="">
+<meta name="description" content="Overview
+This project investigates the thermal performance of a hexagonal twisted capillary tube aimed at improving the efficiency of domestic refrigeration systems.
+A comparative computational study was conducted across four geometries:
+
+Straight tube
+Elliptical tube
+Plus-shaped twisted tube
+Hexagonal twisted tube
+
+The goal was to identify the optimal geometry for enhanced heat dissipation and system performance.
+
+Objective
+
+Maximize heat transfer efficiency through geometry optimization
+Enhance flow characteristics for improved thermal exchange
+Reduce compressor power consumption
+Increase system lifespan by minimizing mechanical strain
+
+
+Background
+Capillary tubes act as the throttling device in vapor compression refrigeration systems, connecting high-pressure and low-pressure regions.">
+<meta name="author" content=" ">
+<link rel="canonical" href="https://vamsi-tangirala.github.io/vamsi/projects/helical-tube/">
+<link crossorigin="anonymous" href="/vamsi/assets/css/stylesheet.662ecabd5b4f8ff6819abe9370b2c115452016bb79a6cdd543ec0eb50848bc97.css" integrity="sha256-Zi7KvVtPj/aBmr6TcLLBFUUgFrt5ps3VQ&#43;wOtQhIvJc=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://vamsi-tangirala.github.io/vamsi/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://vamsi-tangirala.github.io/vamsi/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://vamsi-tangirala.github.io/vamsi/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://vamsi-tangirala.github.io/vamsi/apple-touch-icon.png">
+<link rel="mask-icon" href="https://vamsi-tangirala.github.io/vamsi/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://vamsi-tangirala.github.io/vamsi/projects/helical-tube/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="https://vamsi-tangirala.github.io/vamsi/projects/helical-tube/">
+  <meta property="og:site_name" content="Vamsi Engineering Portfolio">
+  <meta property="og:title" content="Performance Analysis of a Hexagonal Twisted Capillary Tube in Refrigerators">
+  <meta property="og:description" content="Overview This project investigates the thermal performance of a hexagonal twisted capillary tube aimed at improving the efficiency of domestic refrigeration systems.
+A comparative computational study was conducted across four geometries:
+Straight tube Elliptical tube Plus-shaped twisted tube Hexagonal twisted tube The goal was to identify the optimal geometry for enhanced heat dissipation and system performance.
+Objective Maximize heat transfer efficiency through geometry optimization Enhance flow characteristics for improved thermal exchange Reduce compressor power consumption Increase system lifespan by minimizing mechanical strain Background Capillary tubes act as the throttling device in vapor compression refrigeration systems, connecting high-pressure and low-pressure regions.">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="projects">
+    <meta property="article:published_time" content="2026-04-03T00:00:00+00:00">
+    <meta property="article:modified_time" content="2026-04-03T00:00:00+00:00">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Performance Analysis of a Hexagonal Twisted Capillary Tube in Refrigerators">
+<meta name="twitter:description" content="Overview
+This project investigates the thermal performance of a hexagonal twisted capillary tube aimed at improving the efficiency of domestic refrigeration systems.
+A comparative computational study was conducted across four geometries:
+
+Straight tube
+Elliptical tube
+Plus-shaped twisted tube
+Hexagonal twisted tube
+
+The goal was to identify the optimal geometry for enhanced heat dissipation and system performance.
+
+Objective
+
+Maximize heat transfer efficiency through geometry optimization
+Enhance flow characteristics for improved thermal exchange
+Reduce compressor power consumption
+Increase system lifespan by minimizing mechanical strain
+
+
+Background
+Capillary tubes act as the throttling device in vapor compression refrigeration systems, connecting high-pressure and low-pressure regions.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Projects",
+      "item": "https://vamsi-tangirala.github.io/vamsi/projects/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Performance Analysis of a Hexagonal Twisted Capillary Tube in Refrigerators",
+      "item": "https://vamsi-tangirala.github.io/vamsi/projects/helical-tube/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Performance Analysis of a Hexagonal Twisted Capillary Tube in Refrigerators",
+  "name": "Performance Analysis of a Hexagonal Twisted Capillary Tube in Refrigerators",
+  "description": "Overview This project investigates the thermal performance of a hexagonal twisted capillary tube aimed at improving the efficiency of domestic refrigeration systems.\nA comparative computational study was conducted across four geometries:\nStraight tube Elliptical tube Plus-shaped twisted tube Hexagonal twisted tube The goal was to identify the optimal geometry for enhanced heat dissipation and system performance.\nObjective Maximize heat transfer efficiency through geometry optimization Enhance flow characteristics for improved thermal exchange Reduce compressor power consumption Increase system lifespan by minimizing mechanical strain Background Capillary tubes act as the throttling device in vapor compression refrigeration systems, connecting high-pressure and low-pressure regions.\n",
+  "keywords": [
+    
+  ],
+  "articleBody": "Overview This project investigates the thermal performance of a hexagonal twisted capillary tube aimed at improving the efficiency of domestic refrigeration systems.\nA comparative computational study was conducted across four geometries:\nStraight tube Elliptical tube Plus-shaped twisted tube Hexagonal twisted tube The goal was to identify the optimal geometry for enhanced heat dissipation and system performance.\nObjective Maximize heat transfer efficiency through geometry optimization Enhance flow characteristics for improved thermal exchange Reduce compressor power consumption Increase system lifespan by minimizing mechanical strain Background Capillary tubes act as the throttling device in vapor compression refrigeration systems, connecting high-pressure and low-pressure regions.\nConventional designs (straight or helical) often require higher refrigerant usage, leading to:\nincreased energy consumption environmental impact due to refrigerants This study explores how complex internal geometries and induced turbulence can:\nenhance heat transfer reduce refrigerant demand improve system efficiency Methodology Designed four capillary tube geometries with identical length (100 mm) Applied consistent boundary conditions: Fluid temperature: 30°C Ambient temperature: 25°C Used a heat transfer coefficient of 5000 W/(m²·K) to simulate turbulent flow conditions Conducted thermal simulations to evaluate: heat flux temperature distribution thermal gradients Results Hexagonal Twisted Tube (Best Performance) Highest heat transfer efficiency Increased surface area and internal complexity Improved thermal mixing Thermal Behavior Stronger thermal gradients → faster cooling response Reduced thermal resistance Higher heat flux handling capability Comparison Straight tube → lowest performance Twisted geometries → significantly improved heat transfer Hexagonal design → optimal balance of performance and flow dynamics Key Learnings Geometry plays a critical role in thermal system performance Surface area enhancement directly improves heat transfer Induced turbulence significantly boosts thermal efficiency Trade-off exists between performance and manufacturability Tools Used Autodesk Fusion 360 (thermal and flow simulation) CAD modeling for geometric design Engineering analysis using conservation equations Project Files 📄 Project Report 📊 Presentation Slides ",
+  "wordCount" : "301",
+  "inLanguage": "en",
+  "datePublished": "2026-04-03T00:00:00Z",
+  "dateModified": "2026-04-03T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": " "
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://vamsi-tangirala.github.io/vamsi/projects/helical-tube/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Vamsi Engineering Portfolio",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://vamsi-tangirala.github.io/vamsi/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://vamsi-tangirala.github.io/vamsi/" accesskey="h" title="Vamsi Engineering Portfolio (Alt + H)">Vamsi Engineering Portfolio</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://vamsi-tangirala.github.io/vamsi/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://vamsi-tangirala.github.io/vamsi/projects/" title="Projects">
+                    <span>Projects</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://vamsi-tangirala.github.io/vamsi/resume/" title="Resume">
+                    <span>Resume</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Performance Analysis of a Hexagonal Twisted Capillary Tube in Refrigerators
+    </h1>
+    <div class="post-meta"><span title='2026-04-03 00:00:00 +0000 UTC'>April 3, 2026</span>&nbsp;·&nbsp;<span> </span>
+
+</div>
+  </header> 
+  <div class="post-content"><h2 id="overview">Overview<a hidden class="anchor" aria-hidden="true" href="#overview">#</a></h2>
+<p>This project investigates the thermal performance of a <strong>hexagonal twisted capillary tube</strong> aimed at improving the efficiency of domestic refrigeration systems.</p>
+<p>A comparative computational study was conducted across four geometries:</p>
+<ul>
+<li>Straight tube</li>
+<li>Elliptical tube</li>
+<li>Plus-shaped twisted tube</li>
+<li>Hexagonal twisted tube</li>
+</ul>
+<p>The goal was to identify the optimal geometry for enhanced heat dissipation and system performance.</p>
+<hr>
+<h2 id="objective">Objective<a hidden class="anchor" aria-hidden="true" href="#objective">#</a></h2>
+<ul>
+<li>Maximize heat transfer efficiency through geometry optimization</li>
+<li>Enhance flow characteristics for improved thermal exchange</li>
+<li>Reduce compressor power consumption</li>
+<li>Increase system lifespan by minimizing mechanical strain</li>
+</ul>
+<hr>
+<h2 id="background">Background<a hidden class="anchor" aria-hidden="true" href="#background">#</a></h2>
+<p>Capillary tubes act as the <strong>throttling device</strong> in vapor compression refrigeration systems, connecting high-pressure and low-pressure regions.</p>
+<p>Conventional designs (straight or helical) often require higher refrigerant usage, leading to:</p>
+<ul>
+<li>increased energy consumption</li>
+<li>environmental impact due to refrigerants</li>
+</ul>
+<p>This study explores how <strong>complex internal geometries and induced turbulence</strong> can:</p>
+<ul>
+<li>enhance heat transfer</li>
+<li>reduce refrigerant demand</li>
+<li>improve system efficiency</li>
+</ul>
+<hr>
+<h2 id="methodology">Methodology<a hidden class="anchor" aria-hidden="true" href="#methodology">#</a></h2>
+<ul>
+<li>Designed four capillary tube geometries with identical length (100 mm)</li>
+<li>Applied consistent boundary conditions:
+<ul>
+<li>Fluid temperature: 30°C</li>
+<li>Ambient temperature: 25°C</li>
+</ul>
+</li>
+<li>Used a heat transfer coefficient of <strong>5000 W/(m²·K)</strong> to simulate turbulent flow conditions</li>
+<li>Conducted thermal simulations to evaluate:
+<ul>
+<li>heat flux</li>
+<li>temperature distribution</li>
+<li>thermal gradients</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="results">Results<a hidden class="anchor" aria-hidden="true" href="#results">#</a></h2>
+<h3 id="hexagonal-twisted-tube-best-performance">Hexagonal Twisted Tube (Best Performance)<a hidden class="anchor" aria-hidden="true" href="#hexagonal-twisted-tube-best-performance">#</a></h3>
+<ul>
+<li>Highest heat transfer efficiency</li>
+<li>Increased surface area and internal complexity</li>
+<li>Improved thermal mixing</li>
+</ul>
+<h3 id="thermal-behavior">Thermal Behavior<a hidden class="anchor" aria-hidden="true" href="#thermal-behavior">#</a></h3>
+<ul>
+<li>Stronger thermal gradients → faster cooling response</li>
+<li>Reduced thermal resistance</li>
+<li>Higher heat flux handling capability</li>
+</ul>
+<h3 id="comparison">Comparison<a hidden class="anchor" aria-hidden="true" href="#comparison">#</a></h3>
+<ul>
+<li>Straight tube → lowest performance</li>
+<li>Twisted geometries → significantly improved heat transfer</li>
+<li>Hexagonal design → optimal balance of performance and flow dynamics</li>
+</ul>
+<hr>
+<h2 id="key-learnings">Key Learnings<a hidden class="anchor" aria-hidden="true" href="#key-learnings">#</a></h2>
+<ul>
+<li>Geometry plays a critical role in thermal system performance</li>
+<li>Surface area enhancement directly improves heat transfer</li>
+<li>Induced turbulence significantly boosts thermal efficiency</li>
+<li>Trade-off exists between performance and manufacturability</li>
+</ul>
+<hr>
+<h2 id="tools-used">Tools Used<a hidden class="anchor" aria-hidden="true" href="#tools-used">#</a></h2>
+<ul>
+<li>Autodesk Fusion 360 (thermal and flow simulation)</li>
+<li>CAD modeling for geometric design</li>
+<li>Engineering analysis using conservation equations</li>
+</ul>
+<hr>
+<h2 id="project-files">Project Files<a hidden class="anchor" aria-hidden="true" href="#project-files">#</a></h2>
+<ul>
+<li>📄 <a href="/vamsi/files/helical_tube_report.pdf">Project Report</a></li>
+<li>📊 <a href="/vamsi/files/helical_tube_presentation.pdf">Presentation Slides</a></li>
+</ul>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="https://vamsi-tangirala.github.io/vamsi/">Vamsi Engineering Portfolio</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

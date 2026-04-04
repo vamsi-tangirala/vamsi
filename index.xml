@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Vamsi | Thermal-Fluid Systems &amp; CFD on Vamsi Engineering Portfolio</title>
+    <link>https://vamsi-tangirala.github.io/vamsi/</link>
+    <description>Recent content in Vamsi | Thermal-Fluid Systems &amp; CFD on Vamsi Engineering Portfolio</description>
+    <generator>Hugo -- 0.157.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 03 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://vamsi-tangirala.github.io/vamsi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Performance Analysis of a Hexagonal Twisted Capillary Tube in Refrigerators</title>
+      <link>https://vamsi-tangirala.github.io/vamsi/projects/helical-tube/</link>
+      <pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://vamsi-tangirala.github.io/vamsi/projects/helical-tube/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;This project investigates the thermal performance of a &lt;strong&gt;hexagonal twisted capillary tube&lt;/strong&gt; aimed at improving the efficiency of domestic refrigeration systems.&lt;/p&gt;
+&lt;p&gt;A comparative computational study was conducted across four geometries:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Straight tube&lt;/li&gt;
+&lt;li&gt;Elliptical tube&lt;/li&gt;
+&lt;li&gt;Plus-shaped twisted tube&lt;/li&gt;
+&lt;li&gt;Hexagonal twisted tube&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The goal was to identify the optimal geometry for enhanced heat dissipation and system performance.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;objective&#34;&gt;Objective&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Maximize heat transfer efficiency through geometry optimization&lt;/li&gt;
+&lt;li&gt;Enhance flow characteristics for improved thermal exchange&lt;/li&gt;
+&lt;li&gt;Reduce compressor power consumption&lt;/li&gt;
+&lt;li&gt;Increase system lifespan by minimizing mechanical strain&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
+&lt;p&gt;Capillary tubes act as the &lt;strong&gt;throttling device&lt;/strong&gt; in vapor compression refrigeration systems, connecting high-pressure and low-pressure regions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CFD Analysis of Heat Exchanger</title>
+      <link>https://vamsi-tangirala.github.io/vamsi/projects/heat-exchanger/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://vamsi-tangirala.github.io/vamsi/projects/heat-exchanger/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;CFD simulation of a heat exchanger under external vibration conditions.&lt;/p&gt;
+&lt;h2 id=&#34;objectives&#34;&gt;Objectives&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;analyze heat transfer enhancement&lt;/li&gt;
+&lt;li&gt;compare vibrating vs non-vibrating systems&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;tools-used&#34;&gt;Tools Used&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;OpenFOAM&lt;/li&gt;
+&lt;li&gt;CFD analysis&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Resume</title>
+      <link>https://vamsi-tangirala.github.io/vamsi/resume/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://vamsi-tangirala.github.io/vamsi/resume/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://vamsi-tangirala.github.io/vamsi/resume/Vamsi_Tangirala_CV.pdf&#34;&gt;Download CV&lt;/a&gt;&lt;/p&gt;
+&lt;iframe src=&#34;https://vamsi-tangirala.github.io/vamsi/resume/Vamsi_Tangirala_CV.pdf&#34; width=&#34;100%&#34; height=&#34;900px&#34;&gt;&lt;/iframe&gt;
+&lt;hr&gt;</description>
+    </item>
+  </channel>
+</rss>
